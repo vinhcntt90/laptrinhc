@@ -12,7 +12,13 @@ int main(){
 		n = n/10;
 		a++;
 	}
-	while(a > 0){ // Dung khi a < 0
+	while(a > 0) { // Dung khi a < 0
+		// cách viết 1
+		// cout << mang[a] << endl;
+		// a = a - 1; hoăc a--;
+		
+		// cách viết 2
+		// cout << mang[a--] << endl;
 		cout << mang[a = a - 1] << endl;
 	}
 }
