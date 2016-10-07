@@ -1,0 +1,19 @@
+1. Phép toán 2 << 1 cho ra kết quả bao nhiêu?
+
+2. Phép toán 31 >> 2 cho ra kết quả bao nhiêu?
+
+3. Toán tử << có tác dụng gì?
+
+4. Scope của một biến là gì (variable scope) ?
+
+5. Biến local (cục bộ) là gì ?
+
+6. Biến global (toàn cục) là gì ?
+
+7. Cú pháp gọi một hàm sử dụng biến tham chiếu (reference parameter)?
+
+8. Cách gọi hàm sử dụng biến tham chiếu khác gì cách gọi hàm sử dụng tham số?
+
+9. Chuỗi và mảng có gì khác nhau?
+
+10. Sử dụng hàm gì để biết chiều dài của 1 chuỗi?
