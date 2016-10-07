@@ -22,7 +22,7 @@ int dec2bin(int n)
 
     while (n > 0) {
         //@TODO: hoàn thiên dong code dưới
-        arr[length] = ;
+        arr[length] = n % 2;
 
         length++;
         n = n / 2;
@@ -30,10 +30,11 @@ int dec2bin(int n)
 
     for (int i = length - 1; i >= 0; i--) {
         //@TODO: hoàn thiên dong code dưới để tìm được kq là kết quả mong muốn
-        kq = ;
+        kq = arr[i];
+        
     }
 
- 	return kq; // tra ve gia tri bien kq cho ham
+        return kq; // tra ve gia tri bien kq cho ham
 }
 
 /**
@@ -71,6 +72,7 @@ int main(){
 	int n,m,sum;
 	cin >> n >> m;
 	sum = bin2dec(n) +  bin2dec(m);
+	
 
 	cout << dec2bin(sum) << endl;
 }
