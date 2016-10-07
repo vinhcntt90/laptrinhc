@@ -28,12 +28,10 @@ int dec2bin(int n)
         n = n / 2;
     }
 
+    kq = 0;
     for (int i = length - 1; i >= 0; i--) {
         //@TODO: hoàn thiên dong code dưới để tìm được kq là kết quả mong muốn
-         kq = arr[i];
-         cout << kq;
-	
-        
+         kq = kq * 10 + arr[i];       
     }
 
          return kq;// tra ve gia tri bien kq cho ham
