@@ -16,7 +16,7 @@ using namespace std;
  */
 int dec2bin(int n)
 {
-    int kq = 0; // kq là số tự nhiên biểu diễn n ở dạng nhị phân
+    int kq; // kq là số tự nhiên biểu diễn n ở dạng nhị phân
     int arr[100]; // mảng tạm
     int length = 0;
 
@@ -30,11 +30,13 @@ int dec2bin(int n)
 
     for (int i = length - 1; i >= 0; i--) {
         //@TODO: hoàn thiên dong code dưới để tìm được kq là kết quả mong muốn
-        kq = arr[i];
+         kq = arr[i];
+         cout << kq;
+	
         
     }
 
-        return kq; // tra ve gia tri bien kq cho ham
+         return kq;// tra ve gia tri bien kq cho ham
 }
 
 /**
