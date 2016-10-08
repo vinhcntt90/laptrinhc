@@ -16,24 +16,20 @@ using namespace std;
  */
 int dec2bin(int n)
 {
-    int kq; // kq là số tự nhiên biểu diễn n ở dạng nhị phân
+    int kq = 0; // kq là số tự nhiên biểu diễn n ở dạng nhị phân
     int arr[100]; // mảng tạm
     int length = 0;
 
     while (n > 0) {
         //@TODO: hoàn thiên dong code dưới
         arr[length] = n % 2;
-
         length++;
         n = n / 2;
     }
 
-    for (int i = length - 1; i >= 0; i--) {
+     for (int i = length - 1; i >= 0; i--) {
         //@TODO: hoàn thiên dong code dưới để tìm được kq là kết quả mong muốn
-         kq = arr[i];
-         cout << kq;
-	
-        
+         kq = kq * 10 + arr[i];	    
     }
 
          return kq;// tra ve gia tri bien kq cho ham
