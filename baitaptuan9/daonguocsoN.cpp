@@ -4,20 +4,14 @@
 using namespace std;
 
 int main(){
-	int n = 0;
+	int n;
 	cin >> n;
-	int i = 0;
 	char chuoi[100];
-	while(i < n)
-	{
-		cin >> chuoi[i];
-		i++;
-	}
-	i = i - 1;
-	while(i >= 0)
+	cin >> chuoi;
+	while(n >= 0)
 	{	
-		cout << chuoi[i] << " ";
-		i--;
+		cout << chuoi[n];
+		n--;
 	}
 	
 }
