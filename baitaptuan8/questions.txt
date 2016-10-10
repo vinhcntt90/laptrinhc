@@ -5,23 +5,25 @@
   7
 
 3. Toán tử << có tác dụng gì?
-    Sao em xem mấy tài liệu không có toán tử này nhỉ
+  Toán tử dịch sang trái 2 bit
 4. Scope của một biến là gì (variable scope) ?
   scope của một biến là những nơi chúng ta có thể sử dụng biến đó.
   có 2 loại là biến toàn cục và biến cục bộ.
 5. Biến local (cục bộ) là gì ?
-  biến local là biến chỉ được sử dụng trong 1 câu lệnh và đặt trong {}
+ biến cục bộ là biến được sử dụng trong 1 hàm và trong dấu {}
 6. Biến global (toàn cục) là gì ?
   biến global là biến có thể sử dụng trong phạm vi toàn chương trình.
 
 7. Cú pháp gọi một hàm sử dụng biến tham chiếu (reference parameter)?
-  tenbien = tenham(tham so)
+   tenham(tham so)
 
 8. Cách gọi hàm sử dụng biến tham chiếu khác gì cách gọi hàm sử dụng tham số?
+  không thay đổi đều là : tenham(tham so1, thamso2)
   
 
 9. Chuỗi và mảng có gì khác nhau?
-
+  Chuỗi là là nhiều kí tự và chữ cái
+  còn mảng là tập hợp biểu diễn chữ số 
 10. Sử dụng hàm gì để biết chiều dài của 1 chuỗi?
     while(n != 0)
     {  
