@@ -5,7 +5,7 @@
   7
 
 3. Toán tử << có tác dụng gì?
-  Toán tử dịch sang trái 2 bit
+  Toán tử dịch sang trái 1 bit
 4. Scope của một biến là gì (variable scope) ?
   scope của một biến là những nơi chúng ta có thể sử dụng biến đó.
   có 2 loại là biến toàn cục và biến cục bộ.
